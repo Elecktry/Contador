@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Righteous&display=swap');
+*{
+   
+    font-family: 'Righteous', cursive;
+    margin: 0;
+    padding: 0;
+    color: var(--branco);
+}
+
+:root{
+    --azulmarinho: #205295;
+    --azulclaro: #2C74B3;
+    --azuldark: #0A2647;
+    --branco: #fff;
+
+}
+html{
+    
+    background: url("img/Desktop - 1.svg") no-repeat;
+}
+body{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.button>button{
+    padding: 5px;
+    /*margin: top right bottom left */
+    margin: 10px 10px 10px 0px;
+    background-color: var(--azuldark);
+    border: solid 1px var(--branco);
+    border-radius: 5px;
+}
+.button>button:hover{
+    color: var(--azulclaro);
+    background-color: var(--branco);
+    border: solid 1px var(--azulmarinho);
+    transition: 0.5s;
+}
